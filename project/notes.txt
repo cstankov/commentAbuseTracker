@@ -1,0 +1,51 @@
+Configuration:
+        Neural Network: linear_regression
+        Features: 100
+        Labels: 3
+        Learning Rate: 0.1
+        Hidden Layers: 10
+        Epochs: 20
+        Training Partition: 20.0%
+Hate Speech
+        Accuracy      : 94.16837339657216%
+        Precision(+)  : 37.5%
+        Recall(+)     : 0.2777777777777778%
+        F-Score       : 0.5514705882352942%
+Bad Words
+        Accuracy      : 80.54866875067371%
+        Precision(+)  : 81.65848465132785%
+        Recall(+)     : 96.45102696660612%
+        F-Score       : 88.44047275872009%
+Safe Tweet
+        Accuracy      : 85.46405087851676%
+        Precision(+)  : 64.12446613788896%
+        Recall(+)     : 33.25949367088607%
+        F-Score       : 43.800791831631585%
+
+
+
+
+Run Complete
+Configuration:
+        Neural Network: deep_neural_network
+        Features: 100
+        Labels: 3
+        Learning Rate: 0.05
+        Hidden Layers: 35
+        Epochs: 20
+        Training Partition: 20.0%
+Hate Speech
+        Accuracy      : 94.17915274334375%
+        Precision(+)  : 0.0%
+        Recall(+)     : 0.0%
+        F-Score       : 0.0%
+Bad Words
+        Accuracy      : 78.62455535194567%
+        Precision(+)  : 85.40440673326947%
+        Recall(+)     : 87.19435517675004%
+        F-Score       : 86.29009955752213%
+Safe Tweet
+        Accuracy      : 81.89069742373613%
+        Precision(+)  : 47.46192893401015%
+        Recall(+)     : 59.17721518987342%
+        F-Score       : 52.676056338028175%
